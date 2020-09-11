@@ -1,51 +1,112 @@
-
 <!DOCTYPE html>
 <html lang="">
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Title Page</title>
 
-        <!-- Bootstrap CSS -->
-        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
-        <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-        <!--[if lt IE 9]>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Title Page</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Bootstrap CSS -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
             <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.3/html5shiv.js"></script>
             <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
         <![endif]-->
-    </head>
-    <body>
-        <i class="fas fa-book"></i>
-        <i class="fab fa-bandcamp"></i>
-        <div class="jumbotron text-center">
-  <h1>My First Bootstrap Page</h1>
-  <p>Resize this responsive page to see the effect!</p>
-</div>
 
-<div class="container">
-  <div class="row">
-    <div class="col-sm-4">
-      <h3>Column 1</h3>
-      <p>Lorem ipsum dolor..</p>
-    </div>
-    <div class="col-sm-4">
-      <h3>Column 2</h3>
-      <p>Lorem ipsum dolor..</p>
-    </div>
-    <div class="col-sm-4">
-      <h3>Column 3</h3>
-      <p>Lorem ipsum dolor..</p>
-    </div>
-  </div>
-</div>
+</head>
 
-        <!-- jQuery -->
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-        <!-- Bootstrap JavaScript -->
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-    </body>
+<body style="padding: 0;margin: 0;">
+    <!--HEADER-->
+    <section class="container-fluid headerMenu trans flatHeader" style="padding: 0;margin: 0; background-color: white;">
+        <nav class="navbar flatNavbar">
+            <div class="flatNavbar-collapse">
+                <ul class="nav navbar-nav navbar-center flatNavbar-nav-left">
+                    <li class="active">
+                        <a href="#">Khoá học</a>
+                    </li>
+                    <li>
+                        <a href="#">English community</a>
+                    </li>
+                    <li>
+                        <a href="#">About</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="navbar-header ipad-logo-img flatNavbar-nav-center">
+                <a class="imgLeft">
+                    <img src="https://ieltsgiasu.com/assets/images/new-header/Logo%20IE%20Official_Red.svg">
+                </a>
+            </div>
+            <ul class="nav navbar-nav navbar-right flatNavbar-nav-right">
+                <li>
+                    <a href="#">Trở thành gia sư</a>
+                </li>
+                <li>
+                    <a href="#">Contact Us</a>
+                </li>
+            </ul>
+        </nav>
+    </section>
+    <!--SESSION 1-->
+    <section style="position: relative;">
+        <div class="carousel slide">
+            <div class="box-overlay"></div>
+        </div>
+        <ol class="carousel-indicators">
+            <li></li>
+            <li></li>
+            <li></li>
+        </ol>
+        <!--wapper for slides-->
+        <div>
+            <div>
+                <img src="https://ieltsgiasu.com/assets/images/becometutor/_MEO0345.jpg" alt="">
+            </div>
+        </div>
+        <div class="box_bottom hidden-xs">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4 col-sm-4">
+                        <h2>A Massive Pool of <br> Students </h2>
+                    </div>
+                    <div class="col-md-4 col-sm-4">
+                        <h2>Flexible Teaching <br> Venues </h2>
+                    </div>
+                    <div class="col-md-4 col-sm-4">
+                        <h2>12 Hours/7 Days <br> Support</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="banner-box">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 slogan_box">
+                        <h1>Teach Your Way</h1>
+                        <h2>You bring the skill. We bring the classes</h2>
+                        <a class="btn btn_tutor">Become Our Tutor</a>
+                        <a class="btn btn_tutor">Job Description</a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--SESSION 2-->
+    <!--SESSION 3-->
+    <!--SESSION 4-->
+    <!--FOOTER-->
+    <!-- jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Bootstrap JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</body>
+
 </html>
