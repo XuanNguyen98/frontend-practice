@@ -12,6 +12,10 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap"
         rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,700;1,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -29,7 +33,8 @@
             <div class="flatNavbar-collapse">
                 <ul class="nav navbar-nav navbar-center flatNavbar-nav-left">
                     <li class="active">
-                        <a href="#">Khoá học</a>
+                        <a href="#" style="right: 6px;">Khoá học</a>
+                        <span class="caret" style="bottom: 22px;right: 9px; position: absolute;"></span>
                     </li>
                     <li>
                         <a href="#">English community</a>
@@ -56,20 +61,36 @@
     </section>
     <!--SESSION 1-->
     <section style="position: relative;">
-        <div class="carousel slide">
-            <div class="box-overlay"></div>
-        </div>
-        <ol class="carousel-indicators">
-            <li></li>
-            <li></li>
-            <li></li>
-        </ol>
-        <!--wapper for slides-->
-        <div>
-            <div>
-                <img src="https://ieltsgiasu.com/assets/images/becometutor/_MEO0345.jpg" alt="">
+        <div >
+            <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                <div class="box-overlay"></div>
+                <!-- Indicators -->
+                <ol class="carousel-indicators">
+                    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#myCarousel" data-slide-to="1"></li>
+                    <li data-target="#myCarousel" data-slide-to="2"></li>
+                </ol>
+    
+                <!-- Wrapper for slides -->
+                <div class="carousel-inner">
+                    <div class="item active">
+                        <img src="https://ieltsgiasu.com/assets/images/becometutor/_MEO0345.jpg" alt="Los Angeles"
+                            style="width:100%;">
+                    </div>
+    
+                    <div class="item">
+                        <img src="https://ieltsgiasu.com/assets/images/becometutor/_MEO0360.jpg" alt="Chicago"
+                            style="width:100%;">
+                    </div>
+    
+                    <div class="item">
+                        <img src="https://ieltsgiasu.com/assets/images/becometutor/_MEO0337.jpg" alt="New york"
+                            style="width:100%;">
+                    </div>
+                </div>
             </div>
         </div>
+
         <div class="box_bottom hidden-xs">
             <div class="container">
                 <div class="row">
@@ -92,7 +113,6 @@
                         <h1>Teach Your Way</h1>
                         <h2>You bring the skill. We bring the classes</h2>
                         <a class="btn btn_tutor">Become Our Tutor</a>
-                        <a class="btn btn_tutor">Job Description</a>
                     </div>
 
                 </div>
@@ -100,6 +120,244 @@
         </div>
     </section>
     <!--SESSION 2-->
+    <section class="tutor-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h4>Join Our Growing Tutor Community</h4>
+                </div>
+                <div class="space50" style=" margin-top: 100px!important; "></div>
+            </div>
+            <div class="tutorContainer">
+                <div class="col-md-3 col-sm-6 col-xs-12">
+                    <div class="tutor-content">
+                        <div class="tutor-box">
+                            <img src="https://media.ieltsgiasu.com/upload/images/avatar/avt-4526-4-0.jpg"
+                                class="img-responsive center-block">
+                            <div class="tutor-info">
+                                <p class="tutor-name"> Nhan Thị Thanh Nhung</p>
+                                <span class="rank">expert</span>
+                                <div class="edu-box">
+                                    <h4 class="text-center">International Economics with Distinction (BA)</h4>
+                                    <h4 class="text-center uni">University of Foreign Trade</h4>
+                                </div>
+                            </div>
+                            <div class="tutor-info">
+                                <p class="cate-name">My course guanrantees your achievement of IELTS 7+ fast</p>
+                                <div class="folio-action">
+                                    <a>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                    </a>
+                                    <div style=" width: auto;float: right;">
+                                        <label>5.0</label>
+                                        <i>(0)</i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 col-xs-12">
+                    <div class="tutor-content">
+                        <div class="tutor-box">
+                            <img src="https://media.ieltsgiasu.com/upload/images/avatar/avt-4526-4-0.jpg"
+                                class="img-responsive center-block">
+                            <div class="tutor-info">
+                                <p class="tutor-name"> Nhan Thị Thanh Nhung</p>
+                                <span class="rank">expert</span>
+                                <div class="edu-box">
+                                    <h4 class="text-center">International Economics with Distinction (BA)</h4>
+                                    <h4 class="text-center uni">University of Foreign Trade</h4>
+                                </div>
+                            </div>
+                            <div class="tutor-info">
+                                <p class="cate-name">My course guanrantees your achievement of IELTS 7+ fast</p>
+                                <div class="folio-action" >
+                                    <a>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                    </a>
+                                    <div style=" width: auto;float: right;">
+                                        <label>5.0</label>
+                                        <i>(0)</i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 col-xs-12">
+                    <div class="tutor-content">
+                        <div class="tutor-box">
+                            <img src="https://media.ieltsgiasu.com/upload/images/avatar/avt-4526-4-0.jpg"
+                                class="img-responsive center-block">
+                            <div class="tutor-info">
+                                <p class="tutor-name"> Nhan Thị Thanh Nhung</p>
+                                <span class="rank">expert</span>
+                                <div class="edu-box">
+                                    <h4 class="text-center">International Economics with Distinction (BA)</h4>
+                                    <h4 class="text-center uni">University of Foreign Trade</h4>
+                                </div>
+                            </div>
+                            <div class="tutor-info">
+                                <p class="cate-name">My course guanrantees your achievement of IELTS 7+ fast</p>
+                                <div class="folio-action" >
+                                    <a>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                    </a>
+                                    <div style=" width: auto;float: right;">
+                                        <label>5.0</label>
+                                        <i>(0)</i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 col-xs-12">
+                    <div class="tutor-content">
+                        <div class="tutor-box">
+                            <img src="https://media.ieltsgiasu.com/upload/images/avatar/avt-4526-4-0.jpg"
+                                class="img-responsive center-block">
+                            <div class="tutor-info">
+                                <p class="tutor-name"> Nhan Thị Thanh Nhung</p>
+                                <span class="rank">expert</span>
+                                <div class="edu-box">
+                                    <h4 class="text-center">International Economics with Distinction (BA)</h4>
+                                    <h4 class="text-center uni">University of Foreign Trade</h4>
+                                </div>
+                            </div>
+                            <div class="tutor-info">
+                                <p class="cate-name">My course guanrantees your achievement of IELTS 7+ fast</p>
+                                <div class="folio-action">
+                                    <a>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                    </a>
+                                    <div style=" width: auto;float: right;">
+                                        <label>5.0</label>
+                                        <i>(0)</i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-3 col-sm-6 col-xs-12">
+                    <div class="tutor-content">
+                        <div class="tutor-box">
+                            <img src="https://media.ieltsgiasu.com/upload/images/avatar/avt-4526-4-0.jpg"
+                                class="img-responsive center-block">
+                            <div class="tutor-info">
+                                <p class="tutor-name"> Nhan Thị Thanh Nhung</p>
+                                <span class="rank">expert</span>
+                                <div class="edu-box">
+                                    <h4 class="text-center">International Economics with Distinction (BA)</h4>
+                                    <h4 class="text-center uni">University of Foreign Trade</h4>
+                                </div>
+                            </div>
+                            <div class="tutor-info">
+                                <p class="cate-name">My course guanrantees your achievement of IELTS 7+ fast</p>
+                                <div class="folio-action">
+                                    <a>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                    </a>
+                                    <div style=" width: auto;float: right;">
+                                        <label>5.0</label>
+                                        <i>(0)</i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 col-xs-12">
+                    <div class="tutor-content">
+                        <div class="tutor-box">
+                            <img src="https://media.ieltsgiasu.com/upload/images/avatar/avt-4526-4-0.jpg"
+                                class="img-responsive center-block">
+                            <div class="tutor-info">
+                                <p class="tutor-name"> Nhan Thị Thanh Nhung</p>
+                                <span class="rank">expert</span>
+                                <div class="edu-box">
+                                    <h4 class="text-center">International Economics with Distinction (BA)</h4>
+                                    <h4 class="text-center uni">University of Foreign Trade</h4>
+                                </div>
+                            </div>
+                            <div class="tutor-info">
+                                <p class="cate-name">My course guanrantees your achievement of IELTS 7+ fast</p>
+                                <div class="folio-action">
+                                    <a>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                    </a>
+                                    <div style=" width: auto;float: right;">
+                                        <label>5.0</label>
+                                        <i>(0)</i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 col-xs-12">
+                    <div class="tutor-content">
+                        <div class="tutor-box">
+                            <img src="https://media.ieltsgiasu.com/upload/images/avatar/avt-4526-4-0.jpg"
+                                class="img-responsive center-block">
+                            <div class="tutor-info">
+                                <p class="tutor-name"> Nhan Thị Thanh Nhung</p>
+                                <span class="rank">expert</span>
+                                <div class="edu-box">
+                                    <h4 class="text-center">International Economics with Distinction (BA)</h4>
+                                    <h4 class="text-center uni">University of Foreign Trade</h4>
+                                </div>
+                            </div>
+                            <div class="tutor-info">
+                                <p class="cate-name">My course guanrantees your achievement of IELTS 7+ fast</p>
+                                <div class="folio-action">
+                                    <a>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                    </a>
+                                    <div style=" width: auto;float: right;">
+                                        <label>5.0</label>
+                                        <i>(0)</i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
     <!--SESSION 3-->
     <!--SESSION 4-->
     <!--FOOTER-->

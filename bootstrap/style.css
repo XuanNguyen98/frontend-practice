@@ -5,6 +5,8 @@ body{
     font-size: 14px;
     color:#464646!important;
     font-family: 'Opne';
+    height: 100%;
+    width: 100%;
 }
 
 .flatNavbar{
@@ -114,6 +116,7 @@ a{
     list-style: none;
 }
 .box_bottom{
+    position: absolute;
     bottom: 0;
     background-color: rgba(0, 0, 0, 0.49);
     left: 0;
@@ -124,6 +127,7 @@ a{
 .box_bottom h2{
     color: #fff;
     text-align: center;
+    font-weight: 300;
 }
 .banner-box{
     width: 100%;
@@ -141,9 +145,67 @@ a{
 .banner-box h2{
     font-size: 30px;
 }
-.btn{
 
-}
 .btn_tutor{
-    
+    background-color:  #d6293d;
+    color: #fff!important;
+    font-size: 20px!important;
+    font-weight: 700!important;
+    padding: 10px 40px!important;
+    margin-top: 20px;
+    border-radius: 0!important;
 }
+.tutor-section{
+    text-align: center;
+    padding: 30px 0;
+}
+.tutor-section h4{
+    font-family: 'Cabin', sans-serif;
+    color: #626262;
+    font-size: 24px;
+    text-transform: uppercase;
+}
+
+.rank{
+    color: #CC8D00!important;
+    text-transform: capitalize;
+    font-size: 13px!important;
+}
+.tutor-name{
+    font-size: 17px;
+    color: #787878;
+    font-weight: inherit;
+}
+.text-center{
+    font-family: 'Roboto', sans-serif!important;
+    font-size: 18px!important;
+    text-transform: inherit!important;
+    color: #333743!important;
+    font-weight: inherit;
+}
+.uni{
+    color: #787878!important;
+    font-style: italic;
+}
+.tutor-info{
+    padding: 0 8px 8px;
+}
+.cate-name{
+    color: #545454;
+    font-size: 17px;
+    font-weight: 600;
+    min-height: 80px;
+}
+.tutor-content img{
+    border-top-left-radius: 8px;
+}
+.tutor-content{
+    box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.1);
+}
+.fa{
+    color: #0071BC;
+}
+.folio-action{
+    text-align: left;
+}
+
